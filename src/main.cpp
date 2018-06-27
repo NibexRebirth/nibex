@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The Nibex developers
+// Copyright (c) 2018 The Nibex developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1600,14 +1600,20 @@ int64_t GetBlockValue(int nHeight)
 
     if (nHeight < 2 && nHeight > 0) {
       nSubsidy = 500000 * COIN;
-    } else if (nHeight >= 2 && nHeight < 501) {
+    } else if (nHeight > 0 && nHeight <= 100) {
       nSubsidy = 1 * COIN;
-    } else if (nHeight >= 501 && nHeight < 751) {
-      nSubsidy = 20 * COIN;
-    } else if (nHeight >= 751 && nHeight < 1001) {
+    } else if (nHeight > 100 && nHeight <= 30000) {
+      nSubsidy = 150 * COIN;
+    } else if (nHeight > 30000 && nHeight <= 60000) {
+      nSubsidy = 125 * COIN;
+    } else if (nHeight > 30000 && nHeight <= 90000) {
+      nSubsidy = 100 * COIN;
+    } else if (nHeight > 90000 && nHeight <= 120000) {
+      nSubsidy = 75 * COIN;
+    } else if (nHeight > 120000 && nHeight <= 150000) {
       nSubsidy = 50 * COIN;
-    } else if (nHeight >= 1001) {
-      nSubsidy = 200 * COIN;
+    } else if (nHeight > 150000) {
+      nSubsidy = 25 * COIN;
     }
 
     return nSubsidy;

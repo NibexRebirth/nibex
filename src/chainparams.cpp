@@ -133,8 +133,7 @@ public:
         assert(hashGenesisBlock == uint256("0x000000abe469592d7fce3219497661f3d18deff0cf7b1fc9846f199a25e2135c"));
         assert(genesis.hashMerkleRoot == uint256("0x30e73eb7875328cecc42b07eeb3e86a2d4644e0a65ed3db2b3f87b3368767358"));
 
-        vSeeds.push_back(CDNSSeedData("seeddns.nibex.cash", "seeddns.nibex.cash"));
-        vSeeds.push_back(CDNSSeedData("seeddns2.nibex.cash", "seeddns2.nibex.cash"));
+        vSeeds.push_back(CDNSSeedData("dnsseed1", "207.246.75.205"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 33);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 91);
