@@ -392,7 +392,7 @@ nibexd_SOURCES = nibexd.cpp
 #
 
 if TARGET_WINDOWS
-nibexd_SOURCES += nibexd-res.rc
+nibexd_SOURCES += nibex-res.rc
 endif
 
 nibexd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
