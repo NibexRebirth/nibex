@@ -104,13 +104,13 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 2 * 60; // FIX: 120 seconds
-        nTargetSpacing = 2 * 60;  // FIX: 120 seconds
+        nTargetTimespan = 1 * 60; // FIX: 120 seconds
+        nTargetSpacing = 1 * 60;  // FIX: 120 seconds
         nLastPOWBlock = 1000;
-        nMaturity = 151; // FIX
+        nMaturity = 20; // FIX
         nMasternodeCountDrift = 20;
 	nMasternodeColleteralLimxDev = 5000; //Params().MasternodeColleteralLimxDev()
-        nModifierUpdateBlock = 510;
+        nModifierUpdateBlock = 1;
         nMaxMoneyOut = 90000000 * COIN;
 
         const char* pszTimestamp = "You may want to get a job in a bank";
