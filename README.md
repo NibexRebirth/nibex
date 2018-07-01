@@ -19,5 +19,8 @@
 | Rewards split | Masternodes 80%, Staking 20%. 
 | Maximum supply | 90.0 M |
 
-![](https://cdn.discordapp.com/attachments/460803709224484866/462796498837438474/discord.png)
+
+![](https://discord.gg/4W2TKNG)
+![Image](https://cdn.discordapp.com/attachments/460803709224484866/462796498837438474/discord.png)
+
  
