@@ -7,7 +7,7 @@
 
 | Area | Nibex Setting |
 | ------ | ------ |
-| Block Time | 120 Seconds |
+| Block Time | 60 Seconds |
 | Block Reward | NBX |
 | 1 - 501 | 1 NBX |
 | 502 - 751 | 20 NBX |
