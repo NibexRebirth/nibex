@@ -104,8 +104,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // FIX: 120 seconds
-        nTargetSpacing = 1 * 60;  // FIX: 120 seconds
+        nTargetTimespan = 2 * 60; // FIX: 120 seconds
+        nTargetSpacing = 2 * 60;  // FIX: 120 seconds
         nLastPOWBlock = 1000;
         nMaturity = 20; // FIX
         nMasternodeCountDrift = 20;
