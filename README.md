@@ -15,7 +15,7 @@
 | 1001 - 200,000| 200 NBX |
 | 200,001 - >>>> | 50 NBX |
 | POS Algorithm | X11 |
-| MN Collateral | 5000 ZDC |
+| MN Collateral | 5000 NBX |
 | Rewards split | Masternodes 80%, Staking 20%. 
 | Maximum supply | 90.0 M |
 
