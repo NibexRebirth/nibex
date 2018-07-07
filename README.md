@@ -12,8 +12,8 @@
 | 1 - 501 | 1 NBX |
 | 502 - 751 | 20 NBX |
 | 752 - 1000 | 50 NBX |
-| 1001 - 200,000| 200 NBX |
-| 200,001 - >>>> | 50 NBX |
+| 1001 - 175,000| 200 NBX |
+| 175,001 - >>>> | 50 NBX |
 | POS Algorithm | X11 |
 | MN Collateral | 5000 NBX |
 | Rewards split | Masternodes 80%, Staking 20%. 
