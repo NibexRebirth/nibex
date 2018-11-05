@@ -33,9 +33,15 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) 
 
     float fontFactor = 1.0;
 
+    std::string version = FormatFullVersion();
+    int found = version.find("-");
+    if (found!=std::string::npos) {
+        version = version.substr(0, found);
+    }
+
     // define text to place
     QString titleText = tr("Nibex");
-    QString versionText = QString(tr("Version %1")).arg(QString::fromStdString(FormatFullVersion()));
+    QString versionText = QString(tr("Version %1")).arg(QString::fromStdString(version));
     QString copyrightTextBtc = QChar(0xA9) + QString(" 2009-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Bitcoin Core developers"));
     QString copyrightTextDash = QChar(0xA9) + QString(" 2014-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Dash Core developers"));
     QString copyrightTextPIVX = QChar(0xA9) + QString(" 2015-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The PIVX Core developers"));
